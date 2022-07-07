@@ -8,13 +8,15 @@
 import Foundation
 
 enum ListSection {
-    case categories([ListItem])
-    case content([ListItem])
+    case stories([ListItem])
+    case popular([ListItem])
+    case mcPack([ListItem])
     
     var items: [ListItem] {
         switch self {
-        case .categories(let items),
-                .content(let items):
+        case .stories(let items),
+                .popular(let items),
+                .mcPack(let items):
             return items
         }
     }
@@ -25,10 +27,12 @@ enum ListSection {
     
     var title: String {
         switch self {
-        case .categories:
-            return "Categories"
-        case .content:
-            return "Brands"
+        case .stories:
+            return "Stories"
+        case .popular:
+            return "Popular"
+        case .mcPack:
+            return "Mortal Kombat Pack"
         }
     }
 }

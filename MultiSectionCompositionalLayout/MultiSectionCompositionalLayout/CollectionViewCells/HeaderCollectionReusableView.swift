@@ -8,9 +8,9 @@
 import UIKit
 
 class HeaderCollectionReusableView: UICollectionReusableView {
-    @IBOutlet weak var headerImageView: UIImageView!
+    @IBOutlet weak var cellTitleLabel: UILabel!
     
-    func setup(_ image: UIImage) {
-        headerImageView.image = UIImage(named: "image2")
+    func setup(_ title: String) {
+        cellTitleLabel.text = title
     }
 }
