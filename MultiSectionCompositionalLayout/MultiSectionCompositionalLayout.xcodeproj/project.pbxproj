@@ -70,6 +70,9 @@
 		EB99E9D7286B474E008D0D86 /* MultiSectionCompositionalLayout */ = {
 			isa = PBXGroup;
 			children = (
+				EBDF491F286B4CFA00541EE1 /* ListItem.swift */,
+				EBDF4921286B4D3000541EE1 /* ListSection.swift */,
+				EBDF4923286B4E1400541EE1 /* MockData.swift */,
 				EB99E9EC286B490D008D0D86 /* CollectionViewCells */,
 				EB99E9D8286B474E008D0D86 /* AppDelegate.swift */,
 				EB99E9DA286B474E008D0D86 /* SceneDelegate.swift */,
@@ -78,9 +81,6 @@
 				EB99E9E1286B4752008D0D86 /* Assets.xcassets */,
 				EB99E9E3286B4752008D0D86 /* LaunchScreen.storyboard */,
 				EB99E9E6286B4752008D0D86 /* Info.plist */,
-				EBDF491F286B4CFA00541EE1 /* ListItem.swift */,
-				EBDF4921286B4D3000541EE1 /* ListSection.swift */,
-				EBDF4923286B4E1400541EE1 /* MockData.swift */,
 			);
 			path = MultiSectionCompositionalLayout;
 			sourceTree = "<group>";

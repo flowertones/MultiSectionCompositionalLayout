@@ -8,7 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     @IBOutlet weak var collectionView: UICollectionView!
     
     private let sections = MockData.shared.pageData
@@ -20,6 +19,24 @@ class ViewController: UIViewController {
         collectionView.delegate = self
         collectionView.collectionViewLayout = createLayout()
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     private func createLayout() -> UICollectionViewCompositionalLayout {
         UICollectionViewCompositionalLayout { [weak self] sectionIndex, layoutEnviroment in
