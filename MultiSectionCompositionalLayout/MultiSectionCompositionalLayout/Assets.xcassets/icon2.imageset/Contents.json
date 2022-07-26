@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "compression-type" : "gpu-optimized-smallest",
       "filename" : "lukan.png",
       "idiom" : "universal",
       "scale" : "1x"

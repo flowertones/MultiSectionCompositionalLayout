@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "compression-type" : "gpu-optimized-smallest",
       "filename" : "sabzero.png",
       "idiom" : "universal",
       "scale" : "1x"

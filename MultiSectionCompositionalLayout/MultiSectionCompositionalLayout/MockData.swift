@@ -26,8 +26,7 @@ struct MockData {
                   .init(title: "SUB-ZERO", image: "image3"),
                   .init(title: "MILEENA", image: "image4"),
                   .init(title: "LIU KANG", image: "image5"),
-                  .init(title: "CETRION", image: "image6"),
-                  .init(title: "SHAN TSUNG", image: "image7")])
+                  .init(title: "CETRION", image: "image6")])
     }()
     
     private let mcPack: ListSection = {
